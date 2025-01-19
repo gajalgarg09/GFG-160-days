@@ -1,3 +1,5 @@
+// Given an array arr of integers, find all the elements that occur more than once in the array. If no element repeats, return an empty array.
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
