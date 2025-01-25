@@ -22,14 +22,12 @@ class solution{
                 totalSum += arr[i];
             }
 
-
             for(int i =0; i<n; i++){
                 if(leftSum == totalSum - arr[i] - leftSum){
                     return i;
                 }
                 leftSum += arr[i];
             }
-
          return -1; 
     }
 
